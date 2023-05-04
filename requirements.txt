@@ -6,3 +6,7 @@ psycopg2-binary
 pillow
 drf-yasg
 django-filter
+daphne
+channels
+selenium
+channels_redis
