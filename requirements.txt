@@ -10,3 +10,14 @@ daphne
 channels
 selenium
 channels_redis
+django-notifications-hq
+python-decouple
+channels-redis
+agora-token-builder
+django-autoslug
+django-bootstrap4
+django-crispy-forms
+daphne
+django-redis
+gunicorn
+uvicorn

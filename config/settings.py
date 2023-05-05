@@ -48,6 +48,10 @@ INSTALLED_APPS = [
     'review',
     'post',
     'chat',
+    'channels',
+    'crispy_forms',
+    'bootstrap4',
+    'notifications',
 ]
 
 MIDDLEWARE = [
@@ -65,7 +69,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'chat/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -171,6 +175,9 @@ SWAGGER_SETTINGS = {
         }
     }
 }
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 AUTH_USER_MODEL = 'account.User'
